@@ -1,0 +1,32 @@
+{
+  "name": "coaching-landing-page",
+  "version": "1.0.0",
+  "description": "Una landing page moderna per servizi di coaching, ottimizzata per l'integrazione con profili Instagram",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'Build completed - static files ready for deployment'",
+    "deploy": "echo 'Ready for GitHub Pages deployment'"
+  },
+  "keywords": [
+    "landing-page",
+    "coaching",
+    "responsive",
+    "instagram",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Il Tuo Nome",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuousername/landingPage.git"
+  },
+  "homepage": "https://tuousername.github.io/landingPage"
+}
