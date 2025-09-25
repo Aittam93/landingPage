@@ -108,14 +108,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.classList.add('loaded');
     });
     
-    // Add parallax effect to hero section
-    window.addEventListener('scroll', function() {
-        const scrolled = window.pageYOffset;
-        const hero = document.querySelector('.hero');
-        if (hero) {
-            hero.style.transform = `translateY(${scrolled * 0.5}px)`;
-        }
-    });
 });
 
 // Add CSS for mobile navigation

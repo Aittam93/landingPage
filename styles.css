@@ -74,6 +74,8 @@ h1, h2, h3 {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .hero .container {
@@ -121,6 +123,8 @@ h1, h2, h3 {
 .about {
     padding: 100px 0;
     background: #f8f9fa;
+    position: relative;
+    z-index: 2;
 }
 
 .about-content {
@@ -279,6 +283,8 @@ h1, h2, h3 {
 /* Services Section */
 .services {
     padding: 100px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .services-grid {
@@ -328,6 +334,8 @@ h1, h2, h3 {
 .method {
     padding: 100px 0;
     background: white;
+    position: relative;
+    z-index: 2;
 }
 
 .method-content {
@@ -393,6 +401,8 @@ h1, h2, h3 {
 /* Contact Section */
 .contact {
     padding: 100px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .contact-content {
