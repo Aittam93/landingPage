@@ -125,16 +125,11 @@ h1, h2, h3 {
 
 .about-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
-    align-items: start;
-}
-
-.about-image {
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
+
 
 .profile-photo {
     width: 100%;
