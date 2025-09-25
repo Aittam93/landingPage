@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetElement = document.querySelector(targetId);
             
             if (targetElement) {
-                const offsetTop = targetElement.offsetTop - 80; // Account for fixed header
+                const offsetTop = targetElement.offsetTop - 100; // Account for mobile menu
                 window.scrollTo({
                     top: offsetTop,
                     behavior: 'smooth'

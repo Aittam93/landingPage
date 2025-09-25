@@ -399,6 +399,8 @@ h1, h2, h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .contact-info h3 {
@@ -625,6 +627,16 @@ h1, h2, h3 {
     
     .contact-content {
         grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    .contact-info-section {
+        text-align: center;
     }
     
     .cta-buttons {
@@ -652,7 +664,7 @@ h1, h2, h3 {
     }
     
     .hero {
-        padding: 60px 0;
+        padding: 80px 0 60px;
     }
     
     .hero-title {
@@ -660,19 +672,53 @@ h1, h2, h3 {
     }
     
     .btn {
-        padding: 10px 20px;
+        padding: 12px 24px;
         font-size: 0.9rem;
+        width: 100%;
+        max-width: 200px;
     }
     
     .cta-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .contact-content {
+        padding: 0;
     }
 }
 
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
+}
+
+/* Fix for mobile menu scroll issues */
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 80px;
+    }
+    
+    .about {
+        padding-top: 60px;
+    }
+    
+    .services {
+        padding-top: 60px;
+    }
+    
+    .method {
+        padding-top: 60px;
+    }
+    
+    .contact {
+        padding-top: 60px;
+    }
 }
 
 /* Loading animation */
